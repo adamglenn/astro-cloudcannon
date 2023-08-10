@@ -5,3 +5,8 @@ generator:
     markdown: kramdown
     kramdown:
       list_indent: 2
+_editables:
+  block:
+    format: h1 h2 p button
+    undo: true
+    redo: true
