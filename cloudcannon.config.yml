@@ -1,4 +1,7 @@
 source_editor:
-  tab_size: 4
-  show_gutter: false
   theme: 'dawn'
+generator:
+    metadata:
+        markdown: kramdown
+        kramdown:
+            list_indent: 2
