@@ -1,7 +1,7 @@
 source_editor:
   theme: 'dawn'
 generator:
-    metadata:
-        markdown: kramdown
-        kramdown:
-            list_indent: 2
+  metadata:
+    markdown: kramdown
+      kramdown:
+        list_indent: 2
