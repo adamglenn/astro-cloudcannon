@@ -3,5 +3,5 @@ source_editor:
 generator:
   metadata:
     markdown: kramdown
-      kramdown:
-        list_indent: 2
+    kramdown:
+      list_indent: 2
