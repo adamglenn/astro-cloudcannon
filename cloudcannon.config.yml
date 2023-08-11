@@ -1,11 +1,6 @@
-source_editor:
-
-generator:
-  metadata:
-    markdown: kramdown
-    kramdown:
-      list_indent: 2
-
+paths:
+  static: public
+  uploads: public/images
 collections_config:
   pages:
     path: src/pages
@@ -15,11 +10,6 @@ collections_config:
     path: src/content/posts
   site_data:
     path: src/data
-
-paths:
-  static: public
-  uploads: public/images
-
 _inputs:
   layouts:
     hidden: true
