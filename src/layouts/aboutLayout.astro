@@ -2,7 +2,9 @@
 import Layout from './Layout.astro';
 import Hero from '../components/Hero/Hero.astro';
 
-const { heroComponent } = Astro.props.frontmatter;
+const { title, description, heroComponent } = Astro.props.frontmatter;
 ---
 
-<Hero bookshop:live {...heroComponent}/>
+<Layout title="{title}" description="{description}">
+  <Hero bookshop:live {...heroComponent}/>
+</Layout>
