@@ -1,5 +1,5 @@
 ---
-import { Picture } from '@astrojs/image/components';
+// import { Picture } from '@astrojs/image/components';
 
 const {
   title = await Astro.slots.render('title'),
@@ -69,7 +69,7 @@ const {
       </div>
     </div>
   </div>
-  {
+  <!-- {
     image && (
       <div class="relative m-auto max-w-5xl">
         {typeof image === 'string' ? (
@@ -88,5 +88,5 @@ const {
         )}
       </div>
     )
-  }
+  } -->
 </main>
