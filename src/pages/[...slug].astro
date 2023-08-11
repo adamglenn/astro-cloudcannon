@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import IndexLayout from "../layouts/indexLayout.astro";
+import AboutLayout from "../layouts/aboutLayout.astro";
 export async function getStaticPaths(){
   const pages = await getCollection("pages")
   return pages.map((page) => {
@@ -11,4 +11,4 @@ export async function getStaticPaths(){
 const page = Astro.props.page;
 ---
 
-<IndexLayout frontmatter={page.data} />
+<AboutLayout frontmatter={page.data} />
