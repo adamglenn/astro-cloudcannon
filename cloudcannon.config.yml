@@ -9,8 +9,8 @@ generator:
 collections_config:
   pages:
     path: src/content/pages
-  articles:
-    path: src/content/articles
+  posts:
+    path: src/content/posts
 
 paths:
   static: public
