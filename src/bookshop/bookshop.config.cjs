@@ -1,5 +1,5 @@
 module.exports = {
   engines: {
-    "@bookshop/astro-engine": {},
+    "@bookshop/astro-engine": {}
   }
 }
