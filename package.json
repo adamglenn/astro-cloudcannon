@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "bookshop": "npx @bookshop/generate --bookshop src/components"
   },
   "dependencies": {
     "@bookshop/astro-bookshop": "3.6.5",
