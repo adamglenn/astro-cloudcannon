@@ -1,12 +1,15 @@
 source_editor:
-  theme: 'dawn'
+
 generator:
   metadata:
     markdown: kramdown
     kramdown:
       list_indent: 2
-_editables:
-  block:
-    format: h1 h2 p button
-    undo: true
-    redo: true
+
+collections_config:
+  pages:
+    path: src/pages
+
+paths:
+  static: public
+  uploads: public/images
