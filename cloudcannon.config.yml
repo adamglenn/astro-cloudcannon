@@ -2,6 +2,7 @@ collections_config:
   pages:
     path: src/pages
     _enabled_editors:
+      - content
       - visual
   posts:
     path: src/content/posts
