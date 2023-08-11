@@ -5,8 +5,8 @@ const {
   title = await Astro.slots.render('title'),
   subtitle = await Astro.slots.render('subtitle'),
   content = await Astro.slots.render('content'),
-  callToAction = await Astro.slots.render('callToAction'),
-  callToAction2 = await Astro.slots.render('callToAction2'),
+  // callToAction = await Astro.slots.render('callToAction'),
+  // callToAction2 = await Astro.slots.render('callToAction2'),
   image = await Astro.slots.render('image'),
 } = Astro.props;
 ---
@@ -42,7 +42,7 @@ const {
                 />
               )
             }
-            {
+            <!-- {
               callToAction && (
                 {typeof callToAction === 'string' ? (
                   <Fragment set:html={callToAction} />
@@ -63,7 +63,7 @@ const {
                   </a>
                 )}
               )
-            }
+            } -->
           </div>
         </div>
       </div>
