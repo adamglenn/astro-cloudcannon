@@ -5,16 +5,16 @@ const pages = defineCollection({
     title: z.string(),
     description: z.string(),
     heroComponent: z.object({
-      title: z.string();
-      subhead: z.string();
+      title: z.string(),
+      subhead: z.string(),
       image: z.object({
-        src: z.string();
-        alt: z.string();
+        src: z.string(),
+        alt: z.string(),
       }),
       button: z.object({
-        text: z.string();
-        style: z.string();
-        href: z.string();
+        text: z.string(),
+        style: z.string(),
+        href: z.string(),
       }),
     }),
   })
