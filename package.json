@@ -11,11 +11,11 @@
     "bookshop": "npx @bookshop/generate --bookshop src/components"
   },
   "dependencies": {
+    "@astrojs/image": "^0.17.3",
     "@bookshop/astro-bookshop": "3.6.5",
     "@bookshop/astro-engine": "3.6.5",
     "@bookshop/browser": "3.6.5",
     "@bookshop/generate": "3.6.5",
-    "@astrojs/image": "^0.17.3",
     "astro": "^2.10.4"
   }
 }
