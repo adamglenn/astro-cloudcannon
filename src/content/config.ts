@@ -10,12 +10,12 @@ const pages = defineCollection({
       image: z.object({
         src: z.string();
         alt: z.string();
-      });
+      }),
       button: z.object({
         text: z.string();
         style: z.string();
         href: z.string();
-      });
+      }),
     }),
   })
 })
