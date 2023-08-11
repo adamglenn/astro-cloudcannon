@@ -5,7 +5,7 @@ heroComponent:
   title: About Me
   subhead: Subhead goes here.
   content: My cool content.
-  img:
+  image:
     src: /images/day-on-the-water.jpeg
     alt: Kids floating on innertubes
   button:

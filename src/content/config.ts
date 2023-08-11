@@ -7,6 +7,7 @@ const pages = defineCollection({
     heroComponent: z.object({
       title: z.string(),
       subhead: z.string(),
+      content: z.string(),
       image: z.object({
         src: z.string(),
         alt: z.string(),
