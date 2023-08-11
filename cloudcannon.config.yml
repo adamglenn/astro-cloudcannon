@@ -8,7 +8,7 @@ generator:
 
 collections_config:
   pages:
-    path: src/pages
+    path: src/content/pages
   articles:
     path: src/content/articles
 
