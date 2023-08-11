@@ -9,7 +9,7 @@ heroComponent:
     src: /images/day-on-the-water.jpeg
     alt: Kids floating on innertubes
   button:
-    href: /my-href
     text: Click Here
     style: btn-primary btn-lg
+    href: /my-href
 ---
