@@ -2,14 +2,14 @@
 title: About
 description: My About Page
 heroComponent:
-  title: "About Me"
-  subhead: "Subhead goes here."
-  content: "My cool content."
+  title: About Me
+  subhead: Subhead goes here.
+  content: My cool content.
   img:
-    src: ""
-    alt: ""
+    src: /images/day-on-the-water.jpeg
+    alt: Kids floating on innertubes
   button:
-    href: ""
-    text: "Call to Action"
-    style: "btn-primary btn-lg"
+    href: /my-href
+    text: Click Here
+    style: btn-primary btn-lg
 ---
