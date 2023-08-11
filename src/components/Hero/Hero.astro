@@ -27,7 +27,8 @@ const { title, subhead, content, image, button } = Astro.props;
             <p class="h4">{subhead}</p>
             {button.style}, {button.href}, {button.text}
             <p class="lead py-2">{content}</p>
-            <a class="btn {button.style}" href="{button.href}" role="button">{button.text}</a>
+            <a class:list="btn {button.style}" href="{button.href}" role="button">{button.text}</a>
+            {button && <a class="btn {button.style}" href="{button.href}">{button.text}</a>}
           </div>
         </div>
       </div>
