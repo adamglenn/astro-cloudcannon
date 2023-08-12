@@ -8,10 +8,10 @@ heroComponent:
   subhead: Subhead goes here.
   content: My cool content.
   image:
-    src: /images/day-on-the-water.jpeg
+    src: /images/greenbrier-valley-carousel.jpeg
     alt: Kids floating on innertubes
   button:
-    text: 'Click Here l;j '
-    style: btn-secondary
+    text: Click Here
+    style: btn-primary btn-lg
     href: /my-href
 ---
