@@ -11,7 +11,7 @@ heroComponent:
     src: /images/day-on-the-water.jpeg
     alt: Kids floating on innertubes
   button:
-    text: Click Here
+    text: 'Click Here l;j '
     style: btn-secondary
     href: /my-href
 ---
