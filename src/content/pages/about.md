@@ -2,7 +2,7 @@
 title: About
 description: My About Page
 heroComponent:
-  header: 
+  header:
     text: About Me
     style: display-3 wvu-shout wvu-bar
   subhead: Subhead goes here.
@@ -12,6 +12,6 @@ heroComponent:
     alt: Kids floating on innertubes
   button:
     text: Click Here
-    style: btn-primary btn-lg
+    style: btn-secondary
     href: /my-href
 ---
