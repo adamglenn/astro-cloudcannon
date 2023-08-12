@@ -5,7 +5,10 @@ const pages = defineCollection({
     title: z.string(),
     description: z.string(),
     heroComponent: z.object({
-      title: z.string(),
+      header: z.object({
+        text: z.string(),
+        style: z.string(),
+      }),
       subhead: z.string(),
       content: z.string(),
       image: z.object({

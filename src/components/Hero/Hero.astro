@@ -1,6 +1,9 @@
 ---
 type Props = {
-  title: string;
+  header: {
+    text: string;
+    style: string;
+  }
   subhead: string;
   content: string;
   image: {
@@ -14,7 +17,7 @@ type Props = {
   }
 }
 
-const { title, subhead, content, image, button } = Astro.props;
+const { header, subhead, content, image, button } = Astro.props;
 ---
 
 <main id="wvu-main-content" class="py-5 bg-dark text-white wvu-bg-position-top wvu-bg-size-cover" style="background-image: url({image.src})">  
@@ -23,14 +26,12 @@ const { title, subhead, content, image, button } = Astro.props;
       <div class="col col-md-6 ">
         <div class="wvu-bg-tint p-3 p-lg-4 my-n4">
           <div class="wvu-z-index-content">            
-            <h1 id="hero-1-label" class="wvu-shout display-2 wvu-bar">{title}</h1>
+            <h1 id="hero-1-label" class="wvu-shout display-2 wvu-bar">{header.text}</h1>
             <p class="h4">{subhead}</p>
             {button.style}, {button.href}, {button.text}
             <p class="lead py-2">{content}</p>
             <a
-              class:list={[
-                "btn",
-              ]}
+              class:list={['btn', {'btn-primary btn-lg': button.style}]}
               href={button.href}
               role="button"
             >

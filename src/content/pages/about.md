@@ -2,7 +2,9 @@
 title: About
 description: My About Page
 heroComponent:
-  title: About Me
+  header: 
+    text: About Me
+    style: display-3 wvu-shout wvu-bar
   subhead: Subhead goes here.
   content: My cool content.
   image:
