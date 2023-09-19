@@ -1,0 +1,7 @@
+---
+import PageCollection from "../components/page-collection/page-collection.astro";
+
+const { pageCollectionComponent } = Astro.props.frontmatter;
+---
+
+<PageCollection bookshop:live {...pageCollectionComponent}/>
