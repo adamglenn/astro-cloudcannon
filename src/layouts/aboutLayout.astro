@@ -1,7 +1,10 @@
 ---
-import Page from '../shared/astro/page.astro';
+import Layout from "./Layout.astro";
+import Hero from "../components/Hero/Hero.astro";
 
-const { frontmatter } = Astro.props;
+const { title, description, heroComponent } = Astro.props.frontmatter;
 ---
 
-<Page bookshop:live contentBlocks={frontmatter.content_blocks} />
+<Layout title={title} description={description}>
+  <Hero bookshop:live {...heroComponent}/>
+</Layout>
