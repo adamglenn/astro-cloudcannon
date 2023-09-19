@@ -22,6 +22,18 @@ content_blocks:
       image_url: /image.png
       image_alt: My alternate text
   - _bookshop_name: sample
-    title: Kākā
+    text: Hello World!
+    color: '#034ad8'
+    image:
+      image_url: /image.png
+      image_alt: My alternate text
+  - _bookshop_name: sample
+    title: Yo, sup
     subtitle: The New Zealand kākā is a large species of parrot
+  - _bookshop_name: sample
+    text: Hello World!
+    color: '#034ad8'
+    image:
+      image_url: /image.png
+      image_alt: My alternate text
 ---
