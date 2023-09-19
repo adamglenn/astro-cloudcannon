@@ -1,7 +1,6 @@
 ---
 title: About 2
 description: My About Page
-layout: ../../layouts/PageLayout.astro
 heroComponent:
   header:
     text: About Me
@@ -17,7 +16,7 @@ heroComponent:
     href: /my-href
 content_blocks:
   - _bookshop_name: sample
-    text: Hello World!
+    text: Hello World! 2
     color: '#034ad8'
     image:
       image_url: /image.png
