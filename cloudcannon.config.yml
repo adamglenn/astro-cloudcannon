@@ -33,6 +33,8 @@ collections_config:
     schemas: {}
 _inputs:
   layouts:
+    # type: auto
+    # hidden: true
     cascade: true
   src:
     type: image
