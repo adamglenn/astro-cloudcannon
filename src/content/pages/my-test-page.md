@@ -4,7 +4,7 @@ layout: ../../layouts/PageLayout.astro
 description: My Test Page
 heroComponent:
   header:
-    text: About Me
+    text: About Me Test
     style: display-3 wvu-shout wvu-bar
   subhead: Subhead goes here.
   content: My cool content.
