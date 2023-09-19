@@ -34,7 +34,7 @@ collections_config:
 _inputs:
   layouts:
     # type: auto
-    # hidden: true
+    hidden: true
     cascade: true
   src:
     type: image
