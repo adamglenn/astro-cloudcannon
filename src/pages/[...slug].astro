@@ -1,14 +1,25 @@
 ---
-import { getCollection } from "astro:content";
-import AboutLayout from "../layouts/aboutLayout.astro";
-export async function getStaticPaths(){
-  const pages = await getCollection("pages");
-  return pages.map((page) => {
-    return { params: { slug: page.slug }, props: { page }};
-  })
-}
-
-const page = Astro.props.page;
+const { contentBlocks } = Astro.props;
+const components = {};
+const componentImports = import.meta.glob("../../components/**/*.astro", {
+  eager: true,
+});
+Object.entries(componentImports).forEach(([path, obj]) => {
+  const parts = path
+    .replace("../../components/", "")
+    .split(".")[0]
+    .split("/");
+  if (parts[parts.length - 1] === parts[parts.length - 2]) {
+    parts.pop();
+  }
+  const bookshopName = parts.join("/");
+  components[bookshopName] = obj.default;
+});
 ---
 
-<AboutLayout frontmatter={page.data} />
+<main>
+  {contentBlocks.map((block) => {
+    const Component = components[block._bookshop_name];
+    return <Component {...block} />;
+  })}
+</main>
