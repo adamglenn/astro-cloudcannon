@@ -1,12 +1,11 @@
 ---
 title: About 2
 description: My About Page
-layout: ../../layouts/PageLayout.astro
 heroComponent:
   header:
     text: About Me
     style: display-3 wvu-shout wvu-bar
-  subhead: Subhead goes here.
+  subhead: My new Subhead goes here.
   content: My cool content.
   image:
     src: /images/greenbrier-valley-carousel.jpeg
