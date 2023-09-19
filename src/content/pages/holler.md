@@ -1,6 +1,6 @@
 ---
 title: Holler
-description: My About Page
+description: My About Page Holler
 heroComponent:
   header:
     text: About Me
