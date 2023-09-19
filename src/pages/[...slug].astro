@@ -4,11 +4,19 @@ import PageLayout from "../layouts/PageLayout.astro";
 export async function getStaticPaths(){
   const pages = await getCollection("pages");
   return pages.map((page) => {
-    return { params: { slug: page.slug }, props: { page }};
+    const slug = page.slug.replace(/index$/, "");
+    if (slug.length === 0)
+      return { params: { slug: undefined }, props: { page } };
+    return { params: { slug }, props: { page } };
   })
 }
 
 const page = Astro.props.page;
+if (!page.data.content_blocks) {
+  throw new Error(
+    `Tried to output page with unsupported schema: ${page.data._schema}`
+  );
+}
 ---
 
 <PageLayout frontmatter={page.data} />
