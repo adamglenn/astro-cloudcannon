@@ -33,7 +33,7 @@ collections_config:
     schemas: {}
 _inputs:
   layouts:
-    # type: auto
+    type: auto
     hidden: true
     cascade: true
   src:
