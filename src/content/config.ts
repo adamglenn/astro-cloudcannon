@@ -21,6 +21,7 @@ const pages = defineCollection({
         href: z.string(),
       }),
     }),
+    content_blocks: z.object(),
   })
 })
 
