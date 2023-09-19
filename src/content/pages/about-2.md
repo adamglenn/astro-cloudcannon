@@ -1,7 +1,7 @@
 ---
 title: About 2
 description: My About Page
-layout: ../layouts/PageLayout.astro
+layout: ../../layouts/PageLayout.astro
 heroComponent:
   header:
     text: About Me
