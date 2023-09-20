@@ -1,7 +1,7 @@
 ---
 content_blocks:
   - _bookshop_name: sample
-    text: Hello World! 2
+    text: Hello World! 3
     color: '#034ad8'
     image:
       image_url: /image.png
