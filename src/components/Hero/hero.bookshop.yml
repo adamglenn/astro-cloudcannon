@@ -1,23 +1,16 @@
 spec:
   structures:
     - content_blocks
-  label: Hero
+  label: My Hero Component
   description: A very simple component
   icon: nature_people
 
 blueprint:
-  header:
-    text: About Me
-    style: display-3 wvu-shout wvu-bar
-  subhead: Subhead goes here.
-  content: My cool content.
+  text: "Hello World!"
+  color: '#034AD8'
   image:
-    src: /images/greenbrier-valley-carousel.jpeg
-    alt: Kids floating on innertubes
-  button:
-    text: Click Here
-    style: btn-primary btn-lg
-    href: /my-href
+    image_url: "/image.png"
+    image_alt: "My alternate text"
 
 preview:
 
