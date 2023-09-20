@@ -13,4 +13,10 @@ content_blocks:
     image:
       image_url: /image.png
       image_alt: My alternate text
+  - _bookshop_name: Hero/hero
+    text: Hello World! Hero
+    color: '#034ad8'
+    image:
+      image_url: /image.png
+      image_alt: My alternate text
 ---
