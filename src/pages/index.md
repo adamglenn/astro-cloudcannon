@@ -18,5 +18,5 @@ content_blocks:
   - _bookshop_name: hero
     hero_text: My Hero w/Button
     buttons:
-      - bookshop.button
+      - Test
 ---
