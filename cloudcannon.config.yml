@@ -2,13 +2,13 @@ paths:
   uploads: public/images
   static: public
 collections_config:
-  posts:
-    path: src/content/posts
-    output: false
-    icon: notes
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+  # posts:
+  #   path: src/content/posts
+  #   output: false
+  #   icon: notes
+  #   disable_add: false
+  #   disable_add_folder: false
+  #   disable_file_actions: false
   site_data:
     path: src/data
     output: false
