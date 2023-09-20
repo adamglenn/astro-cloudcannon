@@ -1,7 +1,6 @@
 ---
-import Page from '../shared/astro/page.astro';
-
-const { frontmatter } = Astro.props;
+import Layout from "./Layout.astro";
+const { title, description } = Astro.props.frontmatter;
 ---
 
-<Page bookshop:live contentBlocks={frontmatter.content_blocks} />
+<Layout title={title} description={description}/>
