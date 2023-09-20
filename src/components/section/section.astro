@@ -1,13 +1,17 @@
 ---
-const { inner_components } = Astro.props;
+import Button from './button.astro'
+
+const { hero_text, cta_button, column_components } = Astro.props;
 const components = import.meta.glob("./**/*.astro", {
   eager: true,
 });
 ---
-<section>
-  {inner_components.map((block) => {
+<div class="hero">
+  <h1>{ hero_text }</h1>
+  {cta_button && <Button {...cta_button}/>} 
+  {column_components.map((block) => {
     const name = `components/${block._bookshop_name}.astro`;
     const Component = components[name].default;
     return <Component {...block} />;
   })}
-</section>
+</div>

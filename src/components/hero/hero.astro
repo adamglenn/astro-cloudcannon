@@ -1,3 +1,8 @@
+---
+import Button from './button.astro'
+
+const { hero_text, cta_button } = Astro.props;
+---
 <p>General Hero</p>
-<h2>{ Astro.props.title }</h2>
-<p>{ Astro.props.hero_text }</p>
+<h2>{ hero_text }</h2>
+{cta_button && <Button {...cta_button}/>} 

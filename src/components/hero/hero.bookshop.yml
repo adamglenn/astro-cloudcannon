@@ -1,12 +1,10 @@
 spec:
-  structures:
-    - content_blocks
-  label: Hero
+  structures: [content_blocks]
 
 blueprint:
   hero_text: Hello World
-  buttons:
-    - bookshop.button
+  cta_button: bookshop:button
+  column_components: [bookshop:structure:content_blocks]
 
 preview:
 
