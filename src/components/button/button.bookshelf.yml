@@ -1,12 +1,10 @@
 spec:
   structures:
     - content_blocks
-  label: Hero
+  label: Button
 
 blueprint:
-  hero_text: Hello World
-  buttons:
-    - bookshop.button
+  button_text: Call to Action
 
 preview:
 
