@@ -32,7 +32,7 @@ collections_config:
     disable_file_actions: false
     schemas: {}
 _inputs:
-  layouts:
+  layout:
     type: auto
     hidden: true
     cascade: true
