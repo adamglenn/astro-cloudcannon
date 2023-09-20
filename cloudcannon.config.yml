@@ -18,6 +18,7 @@ collections_config:
     disable_file_actions: false
   pages:
     path: src/pages
+    layout: src/layouts/PageLayout.astro
     output: true
     url: "/[slug]/"
     icon: notes

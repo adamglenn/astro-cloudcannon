@@ -1,5 +1,4 @@
 ---
-layout: ../layouts/PageLayout.astro
 content_blocks:
   - _bookshop_name: sample
     text: Hello World! 3
