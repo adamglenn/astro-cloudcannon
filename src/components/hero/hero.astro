@@ -4,4 +4,4 @@ const { hero_text, cta_button } = Astro.props;
 ---
 <p>General Hero</p>
 <h2>{ hero_text }</h2>
-<Button/>
+{cta_button && <Button {..cta_button}/>}
