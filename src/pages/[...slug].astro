@@ -1,16 +1,9 @@
 ---
-import PageLayout from "../layouts/PageLayout.astro";
-import { getCollection, CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import AboutLayout from "../layouts/PageLayout.astro";
 
-export interface Props {
-  page: CollectionEntry<"pages">;
-}
-
-export async function getStaticPaths() {
-  const pages = await getCollection(
-    "pages",
-    ({ data }) => !data.hidden
-  );
+export async function getStaticPaths(){
+  const pages = await getCollection("pages");
   return pages.map((page) => {
     const slug = page.slug.replace(/index$/, "");
     if (slug.length === 0)
@@ -20,11 +13,8 @@ export async function getStaticPaths() {
 }
 
 const page = Astro.props.page;
-if (!page.data.content_blocks) {
-  throw new Error(
-    `Tried to output page with unsupported schema: ${page.data._schema}`
-  );
-}
 ---
 
-<PageLayout frontmatter={page.data} />
+<AboutLayout frontmatter={page.data} />
+
+
