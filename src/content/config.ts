@@ -21,6 +21,11 @@ const pages = defineCollection({
         href: z.string(),
       }),
     }),
+    sample: z.object({
+      header: z.object ({
+        text: z.string(),
+      })
+    })
     content_blocks: z.array(z.any()),
   })
 })
