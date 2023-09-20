@@ -1,0 +1,11 @@
+spec:
+  structures:
+    - content_blocks
+  label: Sample
+
+blueprint:
+  text: Hello World
+
+preview:
+
+_inputs:
