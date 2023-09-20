@@ -1,12 +1,10 @@
 spec:
-  structures:
-    - content_blocks
-  label: Section
+  structures: [content_blocks]
 
 blueprint:
-  section_label: My Section
-  header: bookshop:structure:content_blocks
-  inner_components: [bookshop:structure:content_blocks]
+  hero_text: Hello World
+  cta_button: bookshop:button
+  column_components: [bookshop:structure:content_blocks]
 
 preview:
 
