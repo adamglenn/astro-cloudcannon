@@ -13,8 +13,4 @@ content_blocks:
     image:
       image_url: /image.png
       image_alt: My alternate text
-  - _bookshop_name: Hero/hero
-    header: Hello World!
-    size: display-3
-    text: A simple hero unit.
 ---

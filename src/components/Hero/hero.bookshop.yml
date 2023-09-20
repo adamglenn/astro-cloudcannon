@@ -6,9 +6,11 @@ spec:
   icon: nature_people
 
 blueprint:
-  header: "Hello World!"
-  size: 'display-3'
-  text: A simple hero unit.
+  text: "Hello World!"
+  color: '#034AD8'
+  image:
+    image_url: "/image.png"
+    image_alt: "My alternate text"
 
 preview:
 
