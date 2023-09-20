@@ -1,0 +1,13 @@
+spec:
+  structures:
+    - content_blocks
+  label: Section
+
+blueprint:
+  section_label: My Section
+  header: bookshop:structure:content_blocks
+  inner_components: [bookshop:structure:content_blocks]
+
+preview:
+
+_inputs:
