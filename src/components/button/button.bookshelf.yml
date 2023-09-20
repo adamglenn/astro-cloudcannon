@@ -4,7 +4,7 @@ spec:
   label: Button
 
 blueprint:
-  button_text: Call to Action
+  cta_button: Call to Action
 
 preview:
 
