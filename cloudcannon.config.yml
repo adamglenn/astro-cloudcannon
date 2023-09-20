@@ -25,8 +25,6 @@ collections_config:
     _enabled_editors:
       - visual
     _inputs:
-      layout: src/layouts/PageLayout.astro
-        hidden: true
       content_blocks:
         empty_type: array
     _select_data: {}
@@ -36,6 +34,10 @@ collections_config:
     disable_file_actions: false
     schemas: {}
 _inputs:
+  layout:
+    type: auto
+    hidden: true
+    cascade: true
   page_components:
     type: array
     options:
