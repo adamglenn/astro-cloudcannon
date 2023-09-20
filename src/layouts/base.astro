@@ -1,7 +1,10 @@
 ---
+import Layout from './Layout.astro'
 import AboutHero from '../components/about/hero.astro'
 
 const { frontmatter } = Astro.props;
 ---
 
-<AboutHero bookshop:live {...frontmatter.hero_component}>
+<Layout>
+  <AboutHero bookshop:live {...frontmatter.hero_component}></AboutHero>
+</Layout>
