@@ -18,4 +18,10 @@ content_blocks:
     buttons:
       - bookshop.button
       - bookshop.button
+  - _bookshop_name: section
+    section_label: My Section
+    header:
+    inner_components:
+      - _bookshop_name: sample
+        text: Hello World
 ---
