@@ -1,7 +1,7 @@
 ---
 const { contentBlocks } = Astro.props;
 const components = {};
-const componentImports = import.meta.glob("../../components/**/*.astro", {
+const componentImports = import.meta.glob("../components/**/*.astro", {
   eager: true,
 });
 Object.entries(componentImports).forEach(([path, obj]) => {
