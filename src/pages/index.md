@@ -13,4 +13,6 @@ content_blocks:
   - _bookshop_name: about/hero
     title: Hey
     description: adsadsf
+  - _bookshop_name: sample
+    text: Yo Yo Yo
 ---
