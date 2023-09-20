@@ -10,4 +10,7 @@ content_blocks:
   - _bookshop_name: about/hero
     title: ''
     description: ''
+  - _bookshop_name: about/hero
+    title: Hey
+    description: adsadsf
 ---
