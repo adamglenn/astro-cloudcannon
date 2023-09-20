@@ -7,4 +7,7 @@ content_blocks:
   - _bookshop_name: about/hero
     title: Poop
     description: Poopy.
+  - _bookshop_name: about/hero
+    title: ''
+    description: ''
 ---
