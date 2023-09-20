@@ -1,17 +1,7 @@
 ---
 import Page from '../shared/astro/page.astro';
 
-type Props = {
-  frontmatter: {
-    title: string;
-    description: string;
-    content_blocks: Array<Record<string, any>>;
-  };
-};
-
-const { frontmatter } = Astro.props.frontmatter;
+const { frontmatter } = Astro.props;
 ---
 
 <Page bookshop:live contentBlocks={frontmatter.content_blocks} />
-
-<p>Test 2</p>

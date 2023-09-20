@@ -15,8 +15,4 @@ heroComponent:
     style: btn-primary btn-lg
     href: /my-href
 content_blocks:
-
-  - _bookshop_name: sample
-    title: Kākā
-    subtitle: The New Zealand kākā is a large species of parrot
 ---
