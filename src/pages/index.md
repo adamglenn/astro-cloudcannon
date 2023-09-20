@@ -13,4 +13,9 @@ content_blocks:
   - _bookshop_name: about/hero
     title: Hey
     description: adsadsf
+  - _bookshop_name: hero
+    hero_text: Hello World
+    buttons:
+      - bookshop.button
+      - bookshop.button
 ---
