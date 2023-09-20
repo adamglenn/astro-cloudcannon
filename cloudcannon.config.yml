@@ -34,10 +34,6 @@ collections_config:
     disable_file_actions: false
     schemas: {}
 _inputs:
-  layout:
-    type: auto
-    hidden: true
-    cascade: true
   page_components:
     type: array
     options:
