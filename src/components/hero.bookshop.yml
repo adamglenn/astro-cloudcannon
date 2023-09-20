@@ -1,0 +1,4 @@
+blueprint:
+  hero_text: Hello World
+  buttons:
+    - bookshop.button
