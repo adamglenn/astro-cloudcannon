@@ -1,0 +1,15 @@
+---
+import { getCollection } from "astro:content";
+import Page from '../components/page.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages");
+  return pages.map((page) => {
+    return { params: { slug }, props: { frontmatter: page.data } };
+  });
+}
+
+const page = Astro.props.frontmatter;
+---
+
+<Page bookshop:live {...page} />

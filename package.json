@@ -13,9 +13,11 @@
   "dependencies": {
     "@astrojs/image": "^0.17.3",
     "@bookshop/astro-bookshop": "3.6.5",
+    "astro": "^2.10.4"
+  },
+  "devDependencies": {
     "@bookshop/astro-engine": "3.6.5",
     "@bookshop/browser": "3.6.5",
-    "@bookshop/generate": "3.6.5",
-    "astro": "^2.10.4"
+    "@bookshop/generate": "3.6.5"
   }
 }
